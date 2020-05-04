@@ -44,15 +44,15 @@
 			"response": []
 		},
 		{
-			"name": "500 - Original request to timedotcom.files.wordpress",
+			"name": "422 - Original request to timedotcom.files.wordpress",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"id": "bb23d5fc-8089-4e69-88e0-eac17d68249d",
 						"exec": [
-							"pm.test(\"Status code is 500\", function () {",
-							"    pm.response.to.have.status(500);",
+							"pm.test(\"Status code is 422\", function () {",
+							"    pm.response.to.have.status(422);",
 							"});"
 						],
 						"type": "text/javascript"
@@ -107,7 +107,7 @@
 	],
 	"variable": [
 		{
-			"id": "1df3d31a-de30-494b-a3d0-f1228dd8713c",
+			"id": "50e5a3ed-a07f-4e27-934b-db44c77d9bdc",
 			"key": "HOST",
 			"value": "localhost:8082",
 			"type": "string"
