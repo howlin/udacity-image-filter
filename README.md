@@ -1,3 +1,14 @@
+
+# Project Notes
+
+- Github repo https://github.com/howlin/udacity-image-filter
+  - Followed suggested Github branch structure 
+- Refactored `filterImageFromURL` to catch error when passing in a URL that doesn't exist 
+- Updated Postman tests 
+- EB_URL.  Elastic Beanstalk endpoint - http://udagram-howlin-image-filter-dev.eu-west-1.elasticbeanstalk.com/
+
+---
+
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
